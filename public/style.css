@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+body {
+    font-family: "Alef Hebrew", “Helvetica Neue”, Helvetica, Arial, sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background: #6495ed;
+    max-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+
+header .title {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.container {
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.game-link {
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+.game {
+    padding: 0;
+}
+
+#homepage {
+    text-decoration: none;
+}
+
+#homepage:visited {
+    color: #ffffff;
+}
